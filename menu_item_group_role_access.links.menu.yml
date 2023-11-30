@@ -1,0 +1,5 @@
+menu_item_group_role_access.config:
+  title: 'Menu Item Group Role Access Behaviour'
+  route_name: menu_item_group_role_access.config
+  description: 'Configure the access checking behaviour for menu items.'
+  weight: 190

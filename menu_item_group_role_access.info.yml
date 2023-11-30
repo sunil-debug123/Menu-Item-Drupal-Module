@@ -1,0 +1,10 @@
+name: 'Menu Item Group Role Access'
+type: module
+description: 'Custom module for managing menu item access by group and role.'
+core_version_requirement: ^9 || ^10
+package: Menu
+configure: menu_item_group_role_access.config
+dependencies:
+  - drupal:menu_link_content
+  - drupal:menu_ui
+  - drupal:group
